@@ -4,34 +4,20 @@
 .container {
   width: 100%; 
   max-width: 1200px; 
-  margin: 0 auto; 
+  margin: auto; 
   padding: 0 20px;
-  display: flex;
-  align-items: center;
   height: 100vh;
 }
-/* .user {
-  padding: 20px;
-  border-radius: 10px;
-  background: linear-gradient(45deg, #4f2d5f, #437c79);
-  color: white;
-  text-align: center;
-  width: 1600px;
-  height: 600px;
-  margin-left:-100px;
-  /* justify-content: center; */
-/* } */ 
 
-.list{
-  padding: 20px;
-  border-radius: 6px;
-  background: linear-gradient(45deg, #4f2d5f, #89c5e7);
+.text {
+  line-height: 1.5;
+  font-size: 18px;
+  margin: 20px 0px;
+  text-align: center;
 }
-.para{
-  font-size: 20px;
- 
-}
-.swiper{
-  margin-bottom: -20px;
+.heading {
+  font-size: 35px;
+  margin: 20px 0px;
+  text-align: center;
 }
 

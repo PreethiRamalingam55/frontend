@@ -59,6 +59,8 @@ export default function User() {
   
   return (
     <div className='container'>
+        <h1 className='heading'>Marketing App</h1>
+        <p className='text'>Discover and shop for the latest products with our market app. Enjoy exclusive discounts, fast shipping, and secure payments. Stay updated with daily deals and new arrivals. Download now for a seamless shopping experience!"</p>
         <MySwiper slider={slider} />
     </div>
   );

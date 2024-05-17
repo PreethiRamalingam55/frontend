@@ -20,3 +20,11 @@
 .swiper-pagination-bullet-active {
   background-color: green; 
 }
+
+.Swiper {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
