@@ -1,6 +1,7 @@
 /* CardComponent.css */
 .card {
-  width: 360px;
+  width: 100%;
+  max-width: 360px;
   height: 400px;
   /* border: 1px solid #ccc; */
   border-radius: 8px;
@@ -44,4 +45,11 @@
 }
 .card:hover .card-description {
   color: #ddd;
+}
+
+@media screen and (max-width:400px) {
+  .card {
+    max-width: 250px;
+    margin: auto;
+  }
 }
