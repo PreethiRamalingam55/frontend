@@ -45,8 +45,8 @@ const SwiperComponent = ({ slider }) => {
         },
       }}
     >
-      {slider?.map((value, index) => (
-        <SwiperSlide key={index}>
+      {slider?.map(value => (
+        <SwiperSlide key={value.id}>
           <CardComponent props={value} />
         </SwiperSlide>
       ))}
