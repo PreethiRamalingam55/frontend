@@ -61,7 +61,7 @@ export default function User() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/slider/');
+      const response = await axios.get('https://node-react-js.vercel.app/api/slider');
       if (response.status === 200) {
         setData(response.data);
         console.log(response); 
